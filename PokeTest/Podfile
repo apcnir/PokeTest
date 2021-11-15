@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '14.0'
+
+target 'PokeTest' do
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'netfox', :git => 'https://github.com/apcnir/netfox'
+  pod 'Apollo'
+  pod 'SDWebImage'
+end
+

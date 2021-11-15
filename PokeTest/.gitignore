@@ -1,0 +1,74 @@
+#####################################################################
+# **.gitignore** file for iOS projects
+#
+# NB: this file is for SOURCE projects, where there are many extra
+#     files that we want to exclude
+#
+#####################################################################
+
+####
+# OS temporary files
+
+.DS_Store
+*/.DS_Store
+*.DS_Store
+*.swp
+#profile
+
+#####
+# Xcode build files
+#
+# NB: slash on the end, so we only remove the FOLDER, not any files
+# that we badly named "DerivedData"
+
+DerivedData/
+
+# NB: slash on the end, so we only remove the FOLDER, not any files
+# that we badly named "build"
+
+build/
+
+#####
+# Xcode personal settings
+
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.orig
+
+#####
+# Keep shared settings
+
+!xcshareddata
+xcshareddata/xcschemes/*
+
+#####
+# Depecrated classes
+#
+# Alledgedly, if manually "deprecate" classes, they get moved here.
+
+*.moved-aside
+
+#####
+# Cocoapods
+
+Pods/
+*/Pods/*
+Pods/*.xcodeproj/xcuserdata/
+Pods/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+#####
+# Obj-C/Swift specific
+
+*.hmap
+*.ipa
+
+#Fastlane
+IPA/
+
+Express/scripts/
+
+# dotenv environment variables file(s)
+.env*

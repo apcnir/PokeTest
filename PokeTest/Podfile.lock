@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Apollo (0.49.1):
+    - Apollo/Core (= 0.49.1)
+  - Apollo/Core (0.49.1)
+  - netfox (1.15.1)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Apollo
+  - netfox (from `https://github.com/apcnir/netfox`)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Apollo
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  netfox:
+    :git: https://github.com/apcnir/netfox
+
+CHECKOUT OPTIONS:
+  netfox:
+    :commit: d2ecea496c841c761708f7e1f62e673b3521eef9
+    :git: https://github.com/apcnir/netfox
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Apollo: 69f35ed8f8d87c32ef89e99e4f8c682399e9192b
+  netfox: 20fd3e654fc5d67148d8eb8f384514f9559aa8bd
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+
+PODFILE CHECKSUM: f48a7fa491e7cf0aa3554a71a900acb364879c56
+
+COCOAPODS: 1.11.2
