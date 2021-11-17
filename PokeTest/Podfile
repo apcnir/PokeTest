@@ -7,5 +7,6 @@ target 'PokeTest' do
   pod 'netfox', :git => 'https://github.com/apcnir/netfox'
   pod 'Apollo'
   pod 'SDWebImage'
+  pod 'SwiftLint'
 end
 

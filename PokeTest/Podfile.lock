@@ -7,18 +7,21 @@ PODS:
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
   - SDWebImage/Core (5.12.1)
+  - SwiftLint (0.45.0)
 
 DEPENDENCIES:
   - Alamofire
   - Apollo
   - netfox (from `https://github.com/apcnir/netfox`)
   - SDWebImage
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Apollo
     - SDWebImage
+    - SwiftLint
 
 EXTERNAL SOURCES:
   netfox:
@@ -34,7 +37,8 @@ SPEC CHECKSUMS:
   Apollo: 69f35ed8f8d87c32ef89e99e4f8c682399e9192b
   netfox: 20fd3e654fc5d67148d8eb8f384514f9559aa8bd
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SwiftLint: e5c7f1fba68eccfc51509d5b2ce1699f5502e0c7
 
-PODFILE CHECKSUM: f48a7fa491e7cf0aa3554a71a900acb364879c56
+PODFILE CHECKSUM: 3ed4e06ccadf6792b8e7101c3076f786a83a464e
 
 COCOAPODS: 1.11.2
